@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+.container {
+  width: 100%;
+  max-width: 1279px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menyu {
+  display: none;
+}
+@media screen and (max-width: 720px) {
+  .menyu {
+    display: block;
+  }
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+@media screen and (max-width: 720px) {
+  .map {
+    display: none;
+  }
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+@media screen and (max-width: 720px) {
+  .tel {
+    display: none;
+  }
+}
+
+.header-nav {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+  .header-nav {
+    display: none;
+  }
+}
+
+a {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #121212;
+}
+
+.map-text {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #121212;
+}
+
+.tel-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #121212;
+}
+
+.header-buttons {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.banner-left {
+  background-color: #F5F5F5;
+  border-radius: 40px;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-left: 37px;
+  height: 555px;
+}
+
+.banner-left-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-left-title {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 137%;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.banner-left-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: #4f4f4f;
+}
+
+.banner-left-button {
+  border-radius: 60px;
+  padding: 18px 36px;
+  background: #ed145b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 185%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  margin-top: 38px;
+}
+
+.banner-left-img-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 400px;
+}
+
+.banner-row {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.banner-right-top {
+  width: 100%;
+  height: 50%;
+  background: #778ceb;
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 48px;
+  padding-left: 30px;
+}
+
+.banner-right-top-title {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  color: #fff;
+  width: 60%;
+  margin-bottom: 42px;
+}
+
+.banner-right-top-button {
+  border-radius: 60px;
+  padding: 18px 26px;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 185%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #131313;
+}
+
+.banner-right-top-percent {
+  background-color: #FFB27D;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.top-percent {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 53px;
+  line-height: 91%;
+  color: #ffb27d;
+}
+
+.banner-right-top-buttons {
+  display: flex;
+}
+
+.top {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}/*# sourceMappingURL=main.css.map */
